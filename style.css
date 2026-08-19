@@ -61,4 +61,14 @@ body {
   max-width: 375px;
   border-radius: 10px;
   box-shadow: 0px 10px 40px -10px rgba(214, 217, 230, 0.5);
+  overflow: hidden;
+}
+
+.card-content {
+  padding: 40px;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }/*# sourceMappingURL=style.css.map */
