@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+// Reset margins and paddings on core layout elements
+body,
+h2,
+p,
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+// A clean starting point for our interactive button
+button {
+  background: none;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+}
