@@ -46,4 +46,11 @@ time {
   font-size: 13px;
   color: hsl(212, 23%, 69%);
   font-weight: 300;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }/*# sourceMappingURL=style.css.map */
