@@ -64,12 +64,37 @@ body {
   box-shadow: 0px 10px 40px -10px rgba(214, 217, 230, 0.5);
   overflow: hidden;
 }
+#card img {
+  width: 100%;
+  height: auto;
+}
+#card .author-avatar {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
 
 .card-content {
   padding: 40px;
 }
 
-img {
-  width: 100%;
-  height: auto;
+.author-section {
+  display: flex;
+  align-items: center;
+}
+
+.author-text {
+  margin-left: 24px;
+}
+
+strong {
+  display: block;
+}
+
+time {
+  display: block;
+}
+
+.share-btn {
+  margin-left: auto;
 }/*# sourceMappingURL=style.css.map */

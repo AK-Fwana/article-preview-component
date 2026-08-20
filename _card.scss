@@ -5,13 +5,38 @@
   border-radius: $radius-card;
   box-shadow: 0px 10px 40px -10px rgba(214, 217, 230, 0.5);
   overflow: hidden;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .author-avatar {
+    border-radius: $radius-circle;
+    height: 40px;
+    width: 40px;
+  }
 }
 
 .card-content {
   padding: $spacing-500;
 }
 
-img {
-  width: 100%;
-  height: auto;
+.author-section {
+  display: flex;
+  align-items: center;
+}
+
+.author-text {
+  margin-left: $spacing-300;
+}
+strong {
+  display: block;
+}
+
+time {
+  display: block;
+}
+.share-btn {
+  margin-left: auto;
 }
