@@ -49,4 +49,7 @@ time {
   border: none;
   border-radius: $radius-circle;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
