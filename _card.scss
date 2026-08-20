@@ -38,7 +38,7 @@ strong {
 
 time {
   display: block;
-  color: $Desaturated-Dark-Grayish-Blue;
+  color: $Grayish-Blue;
   font-size: 12px;
 }
 .share-btn {
@@ -60,4 +60,25 @@ time {
 
 .icon-share {
   filter: brightness(0) invert(1);
+}
+
+@media (min-width: 768px) {
+  #card {
+    display: flex;
+    max-width: 730px;
+  }
+  figure {
+    width: 50%;
+    display: flex;
+  }
+  .drawer-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 15% center;
+    display: block;
+  }
+  .card-content {
+    width: 70%;
+  }
 }

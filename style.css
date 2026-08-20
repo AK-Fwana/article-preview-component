@@ -20,6 +20,10 @@ button {
   cursor: pointer;
 }
 
+figure {
+  margin: 0;
+}
+
 body {
   min-height: 100vh;
   background-color: hsl(210, 46%, 95%);
@@ -109,7 +113,7 @@ strong {
 
 time {
   display: block;
-  color: hsl(214, 17%, 51%);
+  color: hsl(212, 23%, 69%);
   font-size: 12px;
 }
 
@@ -131,4 +135,27 @@ time {
 
 .icon-share {
   filter: brightness(0) invert(1);
+}
+
+@media (min-width: 768px) {
+  #card {
+    display: flex;
+    max-width: 730px;
+  }
+  figure {
+    width: 50%;
+    display: flex;
+  }
+  .drawer-image {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 15% center;
+       object-position: 15% center;
+    display: block;
+  }
+  .card-content {
+    width: 70%;
+  }
 }/*# sourceMappingURL=style.css.map */
