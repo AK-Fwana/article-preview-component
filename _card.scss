@@ -52,4 +52,12 @@ time {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  &:hover {
+    background-color: $very-Dark-Grayish-Blue;
+  }
+}
+
+.icon-share {
+  filter: brightness(0) invert(1);
 }
