@@ -101,4 +101,10 @@ time {
 
 .share-btn {
   margin-left: auto;
+  background-color: hsl(210, 46%, 95%);
+  height: 32px;
+  width: 32px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */

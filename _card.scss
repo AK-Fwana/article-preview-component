@@ -43,4 +43,10 @@ time {
 }
 .share-btn {
   margin-left: auto;
+  background-color: $Light-Grayish-Blue;
+  height: 32px;
+  width: 32px;
+  border: none;
+  border-radius: $radius-circle;
+  cursor: pointer;
 }
