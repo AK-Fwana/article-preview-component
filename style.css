@@ -36,6 +36,7 @@ h2 {
 p {
   font-size: 13px;
   color: hsl(214, 17%, 51%);
+  margin-bottom: 48px;
 }
 
 strong {
