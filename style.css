@@ -103,17 +103,30 @@ body {
 }
 
 .share-portal {
-  display: flex;
+  display: none;
   align-items: center;
   position: absolute;
   background-color: hsl(217, 19%, 35%);
-  padding: 32px;
-  border-radius: 10%;
-  color: white;
+  padding: 0 32px;
+  color: hsl(212, 23%, 69%);
   font-size: 13px;
   text-transform: uppercase;
   letter-spacing: 5px;
   gap: 24px;
+  bottom: -20px;
+  left: -32px;
+  right: -32px;
+  height: 80px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.share-portal a {
+  display: flex;
+  align-items: center;
+}
+.share-portal a:hover {
+  opacity: 0.7;
 }
 
 .author-text {
@@ -135,20 +148,21 @@ time {
 .share-btn {
   margin-left: auto;
   background-color: hsl(210, 46%, 95%);
-  height: 32px;
-  width: 32px;
+  height: 30px;
+  width: 30px;
   border: none;
   border-radius: 50%;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  z-index: 10;
 }
-.share-btn:hover {
-  background-color: hsl(217, 19%, 35%);
+.share-btn.active, .share-btn:hover {
+  background-color: hsl(214, 17%, 51%);
 }
-
-.icon-share {
+.share-btn .icon-share {
   filter: brightness(0) invert(1);
 }
 
@@ -156,9 +170,10 @@ time {
   #card {
     display: flex;
     max-width: 730px;
+    overflow: visible;
   }
   figure {
-    width: 50%;
+    width: 40%;
     display: flex;
   }
   .drawer-image {
@@ -171,6 +186,30 @@ time {
     display: block;
   }
   .card-content {
-    width: 70%;
+    width: 60%;
+  }
+  .share-portal {
+    top: auto;
+    left: auto;
+    bottom: 56px;
+    right: -115px;
+    width: 260px;
+    height: auto;
+    padding: 16px 32px;
+    border-radius: 10px;
+    justify-content: center;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  }
+  .share-portal::after {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid hsl(217, 19%, 35%);
   }
 }/*# sourceMappingURL=style.css.map */

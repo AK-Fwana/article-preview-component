@@ -29,17 +29,31 @@
 }
 
 .share-portal {
-  display: flex;
+  display: none;
   align-items: center;
   position: absolute;
   background-color: $very-Dark-Grayish-Blue;
-  padding: $spacing-400;
-  border-radius: 10%;
-  color: white;
+  padding: 0 $spacing-400;
+  color: $Grayish-Blue;
   font-size: 13px;
   text-transform: uppercase;
   letter-spacing: 5px;
   gap: $spacing-300;
+  bottom: -20px;
+  left: -32px;
+  right: -32px;
+  height: 80px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.share-portal a {
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    opacity: 0.7;
+  }
 }
 
 .author-text {
@@ -56,34 +70,38 @@ time {
   color: $Grayish-Blue;
   font-size: 12px;
 }
+
 .share-btn {
   margin-left: auto;
   background-color: $Light-Grayish-Blue;
-  height: 32px;
-  width: 32px;
+  height: 30px;
+  width: 30px;
   border: none;
   border-radius: $radius-circle;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  z-index: 10;
 
+  &.active,
   &:hover {
-    background-color: $very-Dark-Grayish-Blue;
+    background-color: $Desaturated-Dark-Grayish-Blue;
   }
-}
-
-.icon-share {
-  filter: brightness(0) invert(1);
+  .icon-share {
+    filter: brightness(0) invert(1);
+  }
 }
 
 @media (min-width: 768px) {
   #card {
     display: flex;
     max-width: 730px;
+    overflow: visible;
   }
   figure {
-    width: 50%;
+    width: 40%;
     display: flex;
   }
   .drawer-image {
@@ -94,6 +112,31 @@ time {
     display: block;
   }
   .card-content {
-    width: 70%;
+    width: 60%;
+  }
+  .share-portal {
+    top: auto;
+    left: auto;
+    bottom: 56px;
+    right: -115px;
+    width: 260px;
+    height: auto;
+    padding: 16px 32px;
+    border-radius: 10px;
+    justify-content: center;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -8px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 0;
+      height: 0;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-top: 8px solid $very-Dark-Grayish-Blue;
+    }
   }
 }
