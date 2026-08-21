@@ -99,6 +99,21 @@ body {
 .author-section {
   display: flex;
   align-items: center;
+  position: relative;
+}
+
+.share-portal {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  background-color: hsl(217, 19%, 35%);
+  padding: 32px;
+  border-radius: 10%;
+  color: white;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  gap: 24px;
 }
 
 .author-text {
