@@ -41,8 +41,8 @@ users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/AK-Fwana/article-preview-component)
-- Live Site URL: [Add live site URL here](https://ak-fwana.github.io/article-preview-component/)
+- Solution URL: [(https://github.com/AK-Fwana/article-preview-component)]
+- Live Site URL: [(https://ak-fwana.github.io/article-preview-component/)]
 
 ## My process
 
