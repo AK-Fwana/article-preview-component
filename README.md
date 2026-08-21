@@ -29,14 +29,20 @@ users should be able to:
 
 #### Desktop version
 
+![](./images/Desktop-version.jpeg)
+
 #### Tablet version
+
+![](./images/Tablet-version.jpeg)
 
 #### Mobile version
 
+![](./images/Mobil-version.jpeg)
+
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/AK-Fwana/article-preview-component)
+- Live Site URL: [Add live site URL here](https://ak-fwana.github.io/article-preview-component/)
 
 ## My process
 
@@ -76,6 +82,5 @@ users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- GitHub - [AK-Fwana](https://github.com/AK-Fwana)
+- Frontend Mentor - [@AK-Fwana](https://www.frontendmentor.io/profile/AK-Fwana)
